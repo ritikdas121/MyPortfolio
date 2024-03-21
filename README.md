@@ -1,3 +1,3 @@
 # myPortfolio
 Created a minimal portfolio using HTML,CSS and JS.        
-Live on : ritikkumardas.netlify.app
+Live on : [Click Here](https://ritikkumardas.netlify.app)
