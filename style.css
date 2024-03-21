@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #222831;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  cursor: url('cursor.png'),auto;
+}
+.rounded{
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.first,
+.second,
+.third {
+  text-decoration: none;
+  font-size: 8rem;
+  color: white;
+  margin-left: 5rem;
+  line-height: 210%;
+  cursor: url('cursor.png'),auto;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: white;
+  font-size: 1.3rem;
+}
+.footer span{
+    font-size: 1.7rem;
+}
+
+
+.linktree{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    font-weight: bold;
+}
+.linktree:hover{
+    color : red;
+}
+
+.gradient {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.animated {
+  animation: slideIn 0.7s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(15%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animated-2 {
+  animation: slideOut 0.5s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideOut {
+  0% {
+    opacity: 0;
+    transform: translateX(20%);
+  }
+  50% {
+    opacity: 0.5;
+    transform: translateX(10%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
